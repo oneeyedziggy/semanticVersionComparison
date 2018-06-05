@@ -1,0 +1,2 @@
+# semanticVersionComparison
+bash script to compare semantic versions, returning 'greater', 'less', or 'equal'. limited to 3-parts less than 1000000 each... but easily modable to more... the limitation is bash's integer comparison max combined w/ the comparison mechanism... it currently 0-pads each of 3 parts to 6 chars then cat's them, and 999999999999999999 appears to be the max on my system, and fits my current requirement
